@@ -22,3 +22,10 @@ class Forecast{
         return data[0];
     }
 }
+
+.const addForm = document.querySelector('.compass');
+
+addForm.addEventListener('click', e => {
+    e.preventDefault();
+    console.log('The code has run');
+})

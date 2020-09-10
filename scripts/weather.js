@@ -32,8 +32,7 @@ const updateUI = (data) => {
         card.classList.remove('d-none');
     };
 
-
-
+    
 };
 
 
