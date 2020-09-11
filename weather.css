@@ -39,6 +39,12 @@ body {
     
 } 
 .field {
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .field {
+        max-width: 600px;
+    }
 }
