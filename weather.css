@@ -1,5 +1,7 @@
 body {
-    background: #eeedec;
+    margin: 0;
+    padding: 0;
+    background: white;
     letter-spacing: 0.2em;
     font-size: 0.8em;
     font-family: 'Josefin Sans', sans-serif;
@@ -13,4 +15,30 @@ body {
     border-radius: 50%;
     width: 100px;
     margin-bottom: -50px;
+}
+.card {
+    background: url(img/header-cover.jpg);
+    border: none;
+}
+
+.header {
+    background: url(img/header-cover.jpg);
+    background-size: cover;
+    height: 173vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url(img/wave-bottom.svg);
+    height: 275px;
+    
+} 
+.field {
+    max-width: 400px;
+    margin: 0 auto;
 }

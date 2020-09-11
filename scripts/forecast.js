@@ -1,6 +1,6 @@
 class Forecast{
     constructor(){
-        this.key = 'KbKvhxcufx0nGr1QhdwZBawRCG8C4g6N'
+        this.key = 'JDosxg60LXAEf7GBReOIOE5cWuRUO5Zu'
         this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/';
         this.cityURI =  'http://dataservice.accuweather.com/locations/v1/cities/search';
     }
@@ -23,7 +23,7 @@ class Forecast{
     }
 }
 
-.const addForm = document.querySelector('.compass');
+const addForm = document.querySelector('.compass');
 
 addForm.addEventListener('click', e => {
     e.preventDefault();

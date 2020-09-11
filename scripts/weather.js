@@ -12,9 +12,9 @@ const updateUI = (data) => {
     const weather = data.weather;
 
     details.innerHTML = `
-        <h5 class="my-3">${cityDeets.EnglishName}</h5>
-        <div class="my-3">${weather.WeatherText}</div>
-        <div class="display-4 my-4">
+        <h5 class="my-3 text-light">${cityDeets.EnglishName}</h5>
+        <div class="my-3 text-light">${weather.WeatherText}</div>
+        <div class="display-4 my-4 text-light">
             <span>${weather.Temperature.Metric.Value}</span>
             <span>&deg;C</span>
         </div>
